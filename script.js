@@ -6,6 +6,7 @@ const button = document.getElementById('button')
 
 let val;
 input.addEventListener('input', (e)=>{
+    parent.innerText = "";
     val = e.target.value;
 })
 
